@@ -1,0 +1,4 @@
+vTxt name = "David" ?
+vTxt name2 ?
+@name2 = @name ?
+showConsole ("mi nombre es @name2 .")?

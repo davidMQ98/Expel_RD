@@ -1,0 +1,26 @@
+-- se pueden agregar comentarios
+-- con showConsole se imprime en pantalla:
+showConsole ("Bienvenido a Rocket-D")?
+showConsole ("En este programa haremos operaciones basicas usando 10 y 5 para pruebas")?
+showConsole ("Declarando ambos como variables y efectuando pruebas")?
+-- declaracion de variables:
+vInt num1 ?
+vInt num2 ?
+vInt suma ?
+vInt resta ?
+vInt mult ?
+vInt div ?
+-- asignacion de valores:
+@num1 = 10 ?
+@num2 = 5 ?
+-- procedimientos:
+func @suma = @num1 + @num2 ?
+func @resta = @num1 - @num2 ?
+func @mult = @num1 * @num2 ?
+func @div = @num1 / @num2 ?
+-- Muestra de resultados
+showConsole ("Los resultados son: ")?
+showConsole ("suma: @suma // resultado de @num1 + @num2 .")?
+showConsole ("resta: @resta // resultado de @num1 - @num2 .")?
+showConsole ("Multiplicacion: @mult // resultado de @num1 x @num2 .")?
+showConsole ("Divicion: @div // resultado de @num1 % @num2 .")?

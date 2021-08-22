@@ -1,0 +1,22 @@
+showConsole ("Bienvenido a Rocket-D")?
+-- declaracion de variables:
+vInt num1 ?
+vInt num2 ?
+vInt suma ?
+vInt resta ?
+vInt mult ?
+vInt div ?
+-- asignacion de valores:
+@num1 = 15.5 ?
+@num2 = 8.4 ?
+-- procedimientos:
+func @suma = @num1 + @num2 ?
+func @resta = @num1 - @num2 ?
+func @mult = @num1 * @num2 ?
+func @div = @num1 / @num2 ?
+-- Muestra de resultados
+showConsole ("Los resultados son: ")?
+showConsole ("suma: @suma // resultado de @num1 + @num2 .")?
+showConsole ("resta: @resta // resultado de @num1 - @num2 .")?
+showConsole ("Multiplicacion: @mult // resultado de @num1 x @num2 .")?
+showConsole ("Divicion: @div // resultado de @num1 % @num2 .")?
